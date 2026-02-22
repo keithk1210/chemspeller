@@ -1,3 +1,9 @@
+:root {
+	--factor: 5;
+	--symbol-font-size: calc(2em * var(--factor));
+	--name-font-size: calc(1em * var(--factor));
+}
+
 .reversed {
 	transform: scale(-1, 1);
 }
@@ -92,22 +98,27 @@ input, button {
 	font-size: 2em;
 }
 .symbol, .symbolLogo {
-	width: 200px;
-	height: 1.7em;
-	font-size: 2em;
+	min-width: 500px;
+	/* height: var(--symbol-font-size); */
+	font-size: var(--symbol-font-size);
 	text-align: center;
 	padding: 0px 10px 0px 10px;
 	border: 0.0625vw solid black;
 	border-bottom: 0;
 	border-top: 0;
 }
+
+tbody {
+	height: 500px;
+}
+
 .symbolLogo {
 	width: 2em;
 	height: 2.2em;
 	font-size: 4.25em;
 }
 .name, .nameLogo {
-	font-size: 1em;
+	font-size: var(--name-font-size);
 	height: 1em;
 	text-align: center;
 	padding-top: 1px;
