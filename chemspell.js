@@ -1,12 +1,12 @@
-var symbolsOrigLower = ['h', 'he', 'li', 'be', 'b', 'c', 'n', 'o', 'f', 'ne', 'na', 'mg', 'al', 'si', 'p', 's', 'cl', 'ar', 'k', 'ca', 'sc', 'ti', 'v', 'cr', 'mn', 'fe', 'co', 'ni', 'cu', 'zn', 'ga', 'ge', 'as', 'se', 'br', 'kr', 'rb', 'sr', 'y', 'zr', 'nb', 'mo', 'tc', 'ru', 'rh', 'pd', 'ag', 'cd', 'in', 'sn', 'sb', 'te', 'i', 'xe', 'cs', 'ba', 'la', 'ce', 'pr', 'nd', 'pm', 'sm', 'eu', 'gd', 'tb', 'dy', 'ho', 'er', 'tm', 'yb', 'lu', 'hf', 'ta', 'w', 're', 'os', 'ir', 'pt', 'au', 'hg', 'tl', 'pb', 'bi', 'po', 'at', 'rn', 'fr', 'ra', 'ac', 'th', 'pa', 'u', 'np', 'pu', 'am', 'cm', 'bk', 'cf', 'es', 'fm', 'md', 'no', 'lr', 'rf', 'db', 'sg', 'bh', 'hs', 'mt', 'ds', 'rg', 'cn', 'nh', 'fl', 'mc', 'lv', 'ts', 'og', 'e', 'g', 'l', 'm','a', 'z', 'j', 't', 'q', 'd', 'x', 'r'];
-var symbolsOrig = ['H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca', 'Sc', 'Ti', 'V', 'Cr', 'Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Zn', 'Ga', 'Ge', 'As', 'Se', 'Br', 'Kr', 'Rb', 'Sr', 'Y', 'Zr', 'Nb', 'Mo', 'Tc', 'Ru', 'Rh', 'Pd', 'Ag', 'Cd', 'In', 'Sn', 'Sb', 'Te', 'I', 'Xe', 'Cs', 'Ba', 'La', 'Ce', 'Pr', 'Nd', 'Pm', 'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho', 'Er', 'Tm', 'Yb', 'Lu', 'Hf', 'Ta', 'W', 'Re', 'Os', 'Ir', 'Pt', 'Au', 'Hg', 'Tl', 'Pb', 'Bi', 'Po', 'At', 'Rn', 'Fr', 'Ra', 'Ac', 'Th', 'Pa', 'U', 'Np', 'Pu', 'Am', 'Cm', 'Bk', 'Cf', 'Es', 'Fm', 'Md', 'No', 'Lr', 'Rf', 'Db', 'Sg', 'Bh', 'Hs', 'Mt', 'Ds', 'Rg', 'Cn', 'Nh', 'Fl', 'Mc', 'Lv', 'Ts', 'Og', 'e', 'g', 'l', 'm', '&alpha;', 'Z', 'J', '&tau;', 'q', 'D', 'X', 'R'];
+var symbolsOrigLower = ['h', 'he', 'li', 'be', 'b', 'c', 'n', 'o', 'f', 'ne', 'na', 'mg', 'al', 'si', 'p', 's', 'cl', 'ar', 'k', 'ca', 'sc', 'ti', 'v', 'cr', 'mn', 'fe', 'co', 'ni', 'cu', 'zn', 'ga', 'ge', 'as', 'se', 'br', 'kr', 'rb', 'sr', 'y', 'zr', 'nb', 'mo', 'tc', 'ru', 'rh', 'pd', 'ag', 'cd', 'in', 'sn', 'sb', 'te', 'i', 'xe', 'cs', 'ba', 'la', 'ce', 'pr', 'nd', 'pm', 'sm', 'eu', 'gd', 'tb', 'dy', 'ho', 'er', 'tm', 'yb', 'lu', 'hf', 'ta', 'w', 're', 'os', 'ir', 'pt', 'au', 'hg', 'tl', 'pb', 'bi', 'po', 'at', 'rn', 'fr', 'ra', 'ac', 'th', 'pa', 'u', 'np', 'pu', 'am', 'cm', 'bk', 'cf', 'es', 'fm', 'md', 'no', 'lr', 'rf', 'db', 'sg', 'bh', 'hs', 'mt', 'ds', 'rg', 'cn', 'nh', 'fl', 'mc', 'lv', 'ts', 'og', 'e', 'g', 'l', 'm','a', 'z', 'j', 't', 'q', 'd', 'x', 'r','-'];
+var symbolsOrig = ['H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca', 'Sc', 'Ti', 'V', 'Cr', 'Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Zn', 'Ga', 'Ge', 'As', 'Se', 'Br', 'Kr', 'Rb', 'Sr', 'Y', 'Zr', 'Nb', 'Mo', 'Tc', 'Ru', 'Rh', 'Pd', 'Ag', 'Cd', 'In', 'Sn', 'Sb', 'Te', 'I', 'Xe', 'Cs', 'Ba', 'La', 'Ce', 'Pr', 'Nd', 'Pm', 'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho', 'Er', 'Tm', 'Yb', 'Lu', 'Hf', 'Ta', 'W', 'Re', 'Os', 'Ir', 'Pt', 'Au', 'Hg', 'Tl', 'Pb', 'Bi', 'Po', 'At', 'Rn', 'Fr', 'Ra', 'Ac', 'Th', 'Pa', 'U', 'Np', 'Pu', 'Am', 'Cm', 'Bk', 'Cf', 'Es', 'Fm', 'Md', 'No', 'Lr', 'Rf', 'Db', 'Sg', 'Bh', 'Hs', 'Mt', 'Ds', 'Rg', 'Cn', 'Nh', 'Fl', 'Mc', 'Lv', 'Ts', 'Og', 'e', 'g', 'l', 'm', '&alpha;', 'Z', 'J', '&tau;', 'q', 'D', 'X', 'R',' '];
 //var symbolsReversed = ["eH", "iL", "eB", "eN", "aN", "lA", "iS", "lC", "rA", "aC", "cS", "iT", "rC", "nM", "eF", "oC", "iN", "uC", "nZ", "sA", "rB", "rK", "bR", "rS", "rZ", "bN", "oM", "cT", "uR", "hR", "dP", "gA", "nI", "bS", "eT", "eX", "sC", "aB", "aL", "eC", "rP", "dN", "mP", "mS", "uE", "dG", "bT", "oH", "mT", "bY", "uL", "fH", "aT", "eR", "sO", "tP", "uA", "gH", "lT", "bP", "oP", "nR", "rF", "aR", "cA", "hT", "aP", "pN", "uP", "mA", "mC", "kB", "fC", "sE", "mF", "dM", "oN", "fR", "bD", "hB", "sH", "tM", "gR", "lF", "vL"]
 //var symbolsReversedLower = ["eh", "il", "eb", "en", "an", "la", "is", "lc", "ra", "ac", "cs", "it", "rc", "nm", "ef", "oc", "in", "uc", "nz", "sa", "rb", "rk", "br", "rs", "rz", "bn", "om", "ct", "ur", "hr", "dp", "ga", "ni", "bs", "et", "ex", "sc", "ab", "al", "ec", "rp", "dn", "mp", "ms", "ue", "dg", "bt", "oh", "mt", "by", "ul", "fh", "at", "er", "so", "tp", "ua", "gh", "lt", "bp", "op", "nr", "rf", "ar", "ca", "ht", "ap", "pn", "up", "ma", "mc", "kb", "fc", "se", "mf", "dm", "on", "fr", "bd", "hb", "sh", "tm", "gr", "lf", "vl"]
 //var reversedNames = ["Helium", "Lithium", "Beryllium", "Neon", "Sodium", "Aluminium", "Silicon", "Chlorine", "Argon", "Calcium", "Scandium", "Titanium", "Chromium", "Manganese", "Iron", "Cobalt", "Nickel", "Copper", "Zinc", "Arsenic", "Bromine", "Krypton", "Rubidium", "Strontium", "Zirconium", "Niobium", "Molybdenum", "Technetium", "Ruthenium", "Rhodium", "Palladium", "Silver", "Indium", "Antimony", "Tellurium", "Xenon", "Caesium", "Barium", "Lanthanum", "Cerium", "Praseodymium", "Neodymium", "Promethium", "Samarium", "Europium", "Gadolinium", "Terbium", "Holmium", "Thulium", "Ytterbium", "Lutetium", "Hafnium", "Tantalum", "Rhenium", "Osmium", "Platinum", "Gold", "Mercury", "Thallium", "Lead", "Polonium", "Radon", "Francium", "Radium", "Actinium", "Thorium", "Protactinium", "Neptunium", "Plutonium", "Americium", "Curium", "Berkelium", "Californium", "Einsteinium", "Fermium", "Mendelevium", "Nobelium", "Rutherfordium", "Dubnium", "Bohrium", "Hassium", "Meitnerium", "Roentgenium", "Flerovium", "Livermorium"]
 var symbolsReversed = ["eH", "eN", "nM", "uR", "oM"]
 var symbolsReversedLower = ["eh", "en", "nm", "ur", "om"]
 var reversedNames = ["Helium", "Neon", "Manganese", "Ruthenium", "Molybdenum"]
-var names = ['Hydrogen', 'Helium', 'Lithium', 'Beryllium', 'Boron', 'Carbon', 'Nitrogen', 'Oxygen', 'Fluorine', 'Neon', 'Sodium', 'Magnesium', 'Aluminium', 'Silicon', 'Phosphorus', 'Sulfur', 'Chlorine', 'Argon', 'Potassium', 'Calcium', 'Scandium', 'Titanium', 'Vanadium', 'Chromium', 'Manganese', 'Iron', 'Cobalt', 'Nickel', 'Copper', 'Zinc', 'Gallium', 'Germanium', 'Arsenic', 'Selenium', 'Bromine', 'Krypton', 'Rubidium', 'Strontium', 'Yttrium', 'Zirconium', 'Niobium', 'Molybdenum', 'Technetium', 'Ruthenium', 'Rhodium', 'Palladium', 'Silver', 'Cadmium', 'Indium', 'Tin', 'Antimony', 'Tellurium', 'Iodine', 'Xenon', 'Caesium', 'Barium', 'Lanthanum', 'Cerium', 'Praseodymium', 'Neodymium', 'Promethium', 'Samarium', 'Europium', 'Gadolinium', 'Terbium', 'Dysprosium', 'Holmium', 'Erbium', 'Thulium', 'Ytterbium', 'Lutetium', 'Hafnium', 'Tantalum', 'Tungsten', 'Rhenium', 'Osmium', 'Iridium', 'Platinum', 'Gold', 'Mercury', 'Thallium', 'Lead', 'Bismuth', 'Polonium', 'Astatine', 'Radon', 'Francium', 'Radium', 'Actinium', 'Thorium', 'Protactinium', 'Uranium', 'Neptunium', 'Plutonium', 'Americium', 'Curium', 'Berkelium', 'Californium', 'Einsteinium', 'Fermium', 'Mendelevium', 'Nobelium', 'Lawrencium', 'Rutherfordium', 'Dubnium', 'Seaborgium', 'Bohrium', 'Hassium', 'Meitnerium', 'Darmstadtium', 'Roentgenium', 'Copernicium', 'Nihonium', 'Flerovium', 'Moscovium', 'Livermorium', 'Tennessine', 'Oganesson', 'Electron', 'Gluon', 'Lepton', 'Mass', 'Alpha Particle', 'Z Boson', 'Joule', 'Tau', 'Quark', 'Deuterium', 'X Boson', 'Roentgen'];
+var names = ['Hydrogen', 'Helium', 'Lithium', 'Beryllium', 'Boron', 'Carbon', 'Nitrogen', 'Oxygen', 'Fluorine', 'Neon', 'Sodium', 'Magnesium', 'Aluminium', 'Silicon', 'Phosphorus', 'Sulfur', 'Chlorine', 'Argon', 'Potassium', 'Calcium', 'Scandium', 'Titanium', 'Vanadium', 'Chromium', 'Manganese', 'Iron', 'Cobalt', 'Nickel', 'Copper', 'Zinc', 'Gallium', 'Germanium', 'Arsenic', 'Selenium', 'Bromine', 'Krypton', 'Rubidium', 'Strontium', 'Yttrium', 'Zirconium', 'Niobium', 'Molybdenum', 'Technetium', 'Ruthenium', 'Rhodium', 'Palladium', 'Silver', 'Cadmium', 'Indium', 'Tin', 'Antimony', 'Tellurium', 'Iodine', 'Xenon', 'Caesium', 'Barium', 'Lanthanum', 'Cerium', 'Praseodymium', 'Neodymium', 'Promethium', 'Samarium', 'Europium', 'Gadolinium', 'Terbium', 'Dysprosium', 'Holmium', 'Erbium', 'Thulium', 'Ytterbium', 'Lutetium', 'Hafnium', 'Tantalum', 'Tungsten', 'Rhenium', 'Osmium', 'Iridium', 'Platinum', 'Gold', 'Mercury', 'Thallium', 'Lead', 'Bismuth', 'Polonium', 'Astatine', 'Radon', 'Francium', 'Radium', 'Actinium', 'Thorium', 'Protactinium', 'Uranium', 'Neptunium', 'Plutonium', 'Americium', 'Curium', 'Berkelium', 'Californium', 'Einsteinium', 'Fermium', 'Mendelevium', 'Nobelium', 'Lawrencium', 'Rutherfordium', 'Dubnium', 'Seaborgium', 'Bohrium', 'Hassium', 'Meitnerium', 'Darmstadtium', 'Roentgenium', 'Copernicium', 'Nihonium', 'Flerovium', 'Moscovium', 'Livermorium', 'Tennessine', 'Oganesson', 'Electron', 'Gluon', 'Lepton', 'Mass', 'Alpha Particle', 'Z Boson', 'Joule', 'Tau', 'Quark', 'Deuterium', 'X Boson', 'Roentgen',' '];
 var colors = ["#D4F2FC", "#FCDED4", "#DEFCD4", "#F2D4FC", "#FAFCD4", "#D4FCF8"]
 var bgcolors = ["#CEDCE0", "#E0CEC8", "#D3E6CC", "#DECFE3", "#FBFCE6", "#C5DEDB"]
 var table;
@@ -165,6 +165,7 @@ function apply() {
 
 function _elementSpell(word, spelling, depth = 0) {
 	for (var i = 0; i < symbolsLower.length; i++) {
+    //console.log(symbolsLower[i]);
 		if (symbolsLower[i] === word) {
 			spelling.push([i, depth])
 		} else if (symbolsLower[i] === word.slice(0, symbolsLower[i].length)) {
@@ -216,8 +217,9 @@ function animateTable(spelling, line) {
 }
 
 function makeTable(spelling, line, final) {
+  console.log('spelling ' + spelling + ' line ' + line + ' final '+ final)
 	line = line.toString()
-	table = "<table><tr>";
+	table = "<tr>";
 	for (i=0; i < spelling.length; i++) {
     reverseClass = ""
     if (symbolsReversed.indexOf(symbols[spelling[i]]) != -1) {
@@ -280,8 +282,11 @@ function makeTable(spelling, line, final) {
     }
 		table = table+"<td class=\"name turnWhite tableColor "+reverseClass+"\">"+"<a href=\""+infourl+"\">"+curName+"</a></td>";
 	}
-	table = table+"</table>"
-	document.getElementById(line).innerHTML = table
+	table = table + '</tr>'
+  if (final) {
+    document.getElementById(line).innerHTML += table
+  }
+	
   if (final) {
     var elementImage = document.getElementById("tables")
     domtoimage.toPng(elementImage)
@@ -388,18 +393,21 @@ function elementSpell() {
 	history.replaceState('', document.title, "index.html"+makeUrlVars(params))
   ga('set', 'page', "index.html"+makeUrlVars(params))
   ga('send', 'pageview')
-	if (/[^A-Za-z ]/g.test(word)) {
+	if (/[^A-Za-z -]/g.test(word)) {
 		word = ";"
 	}
 	words = word.split(" ");
+  console.log(words)
   if (getUrlVars()["spell"] != undefined) {
     allSpellings()
   } else {
   	if (words[0] != "") {
+      document.getElementById("tables").innerHTML += '<table id="multiline">'
   		for (c=0; c < words.length; c++) {
-  			document.getElementById("tables").innerHTML += "<div id="+c.toString()+" class=\"table\"></div>"
+  			document.getElementById("multiline").innerHTML += "<tbody id="+c.toString()+" class=\"table\"></tbody>"
   			animateTable(bestSpelling(getSpellings(words[c].toLowerCase(), _elementSpell(words[c].toLowerCase(), []))), c);
   		}
+      document.getElementById("tables").innerHTML += '</table>'
   	}
   }
 }
