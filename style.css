@@ -92,7 +92,7 @@ input, button {
 	font-size: 2em;
 }
 .symbol, .symbolLogo {
-	width: 150px;
+	width: 200px;
 	height: 1.7em;
 	font-size: 2em;
 	text-align: center;
@@ -300,4 +300,8 @@ a {
 	position: relative;
 	top: -1em;
 	font-size: 0.7em;
+}
+.whitespace {
+	border: none;
+	background-color: transparent !important;
 }
